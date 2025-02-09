@@ -1,3 +1,7 @@
+spring:
+  profiles:
+    active: dev
+
 eureka:
   instance:
     prefer-ip-address: true  # Use the instance's IP address when registering with Eureka
